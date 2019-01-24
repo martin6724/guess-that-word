@@ -8,13 +8,24 @@
 </head>
 
 <body>
-  <header>
-    <img src="https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-1/p160x160/16473670_379297032434500_2297476078095540370_n.jpg?_nc_cat=110&_nc_ht=scontent-mia3-1.xx&oh=b417729e7908c8bec5d0d3b35bfd3950&oe=5CB3C300" class="logo" />
+<header>
+  <h1 class="heading">automated guess</h1>
+</header>
 
-  </header>
+<svg viewBox="0 0 500 110" preserveAspectRatio="none">
+  <defs>
+  <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%"   stop-color="#4BC0C8"/>
+    <stop offset="50%"   stop-color="#C779D0"/>
+    <stop offset="100%" stop-color="#FEAC5E"/>
+  </linearGradient>
+</defs>
+
+  <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" fill="url(#linear)"></path>
+</svg>
+
   <main id="main">
     <div class="container">
-
       <h1>Enter a Word</h1>
 
       <form id="form" autocomplete="off">
@@ -27,6 +38,7 @@
       </div>
 
     </div>
+
   </main>
   <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
   <script src="./public/word-guesser.js"></script>
